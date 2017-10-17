@@ -1,0 +1,113 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+.logo img {
+  margin-left: 10px;
+  height: 50px;
+}
+header nav span a {
+  color: white;
+}
+ header nav {
+   display: block;
+   padding-right: 10px;
+ }
+ header nav span {
+   display: inline-block;
+   padding: 20px 10px;
+ }
+.main {
+  margin: auto;
+  padding-top: 75px;
+  width: 1200px;
+/*  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 75px;
+  width: 100%;
+  */
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+ #mission {
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+   width: 1200px;
+   height: 700px;
+ }
+ .content {
+   margin: auto;
+   background-color: black;
+ }
+ h2, h3, h4 {
+   padding: 10px;
+   margin: 0;
+ }
+ #misiionContent {
+   width: 1200px;
+ }
+ #teaOfTheMonth {
+   width: 1000px;
+   height: 700px;
+   padding-top: 70px;
+   margin: auto;
+ }
+ .productImage {
+   height: 200px;
+   width: 300px;
+   margin: 10px;
+ }
+ .product {
+   display: flex;
+   flex-direction: column;
+ }
+ .product span {
+   display: block;
+ }
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-top: 70px;
+}
+#locationAdresses {
+  margin-top: 5px;
+}
+.location {
+  width: 280px;
+  background-color: black;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  padding: 10px;
+}
+#adress {
+  width: 1200px;
+  height: 200px;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
